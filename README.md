@@ -8,16 +8,18 @@ Each project is designed to sharpen modern React skills using functional compone
 
 ## 📅 Weekly Breakdown
 
-| Week | Focus Area                         | Status         |
-| ---- | ---------------------------------- | -------------- |
-| 1    | React Basics (JSX, props, state)   | ✅ In Progress |
-| 2    | React Hooks (useState, useEffect)  | ⏳ Coming Soon |
-| 3    | DOM Events & Forms                 | ⏳             |
-| 4    | Lifecycle & Performance            | ⏳             |
-| 5    | Routing with React Router          | ⏳             |
-| 6    | UI Libraries & Animations          | ⏳             |
-| 7    | Interview Prep & Coding Challenges | ⏳             |
-| 8    | Final Projects (Portfolio Ready)   | ⏳             |
+| Week | Focus Area                                               | Status         |
+| ---- | -------------------------------------------------------- | -------------- |
+| 1    | React Basics (JSX, Components, Props, State)             | ✅ In Progress |
+| 2    | React Hooks (useState, useEffect, useRef)                | ⏳ Coming Soon |
+| 3    | Forms, Events, and Controlled Components                 | ⏳             |
+| 4    | Context API & Prop Drilling Alternatives                 | ⏳             |
+| 5    | Advanced State Management (Redux Toolkit)                | ⏳             |
+| 6    | Routing (react-router-dom v6+)                           | ⏳             |
+| 7    | UI Frameworks & Animation (Tailwind, MUI, Framer Motion) | ⏳             |
+| 8    | Performance Optimization (memo, lazy loading, Suspense)  | ⏳             |
+| 9    | Testing (React Testing Library + Jest)                   | ⏳             |
+| 10   | Project Polish, Deployments, and Portfolio Prep          | ⏳             |
 
 ---
 
