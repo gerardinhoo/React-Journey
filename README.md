@@ -34,12 +34,6 @@ Legend: ✅ Completed • 🛠️ In Progress • ⏳ Planned
 - ✅ Dark UI + global CSS tokens
 - ⏭️ Next: unit tests for store actions, deploy preview (Vercel/Netlify), README screenshots
 
-## Recently Completed (P1: Profile Card)
-
-- Card layout with avatar, name, title, bio, GitHub link
-- Simple component props & styling
-- Screenshot added to project README
-
 ## 📅 Weekly Breakdown
 
 | Week | Focus Area                                               | Status                           |
