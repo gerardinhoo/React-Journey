@@ -1,0 +1,317 @@
+:root {
+  --bg: #0b0c10;
+  --card: #121318;
+  --muted: #aab0bf;
+  --text: #eef1f8;
+  --brand: #4f8cff;
+  --brand-600: #3a6fe0;
+  --danger: #ff5b6e;
+  --ring: rgba(79, 140, 255, 0.35);
+  --radius: 14px;
+  --shadow: 0 6px 24px rgba(2, 8, 23, 0.35);
+  --border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto,
+    'Helvetica Neue', Arial;
+}
+
+.container {
+  max-width: 980px;
+  margin: 40px auto 64px;
+  padding: 0 16px;
+}
+
+.header h1 {
+  font-size: clamp(28px, 3vw, 40px);
+  letter-spacing: 0.5px;
+  margin: 0 0 16px;
+}
+
+.card {
+  background: var(--card);
+  border: var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 18px;
+}
+
+.form .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+@media (max-width: 720px) {
+  .form .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.field {
+  display: grid;
+  gap: 6px;
+}
+.field > span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.input {
+  width: 100%;
+  background: #0e1015;
+  color: var(--text);
+  border: var(--border);
+  border-radius: 10px;
+  padding: 10px 12px;
+  outline: none;
+}
+.input:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px var(--ring);
+}
+
+.input-sm {
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+.btn {
+  appearance: none;
+  border: var(--border);
+  background: #0e1015;
+  color: var(--text);
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.06s ease, background 0.2s;
+}
+.btn:hover {
+  transform: translateY(-1px);
+}
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn-primary {
+  background: var(--brand);
+  border-color: transparent;
+}
+.btn-primary:hover {
+  background: var(--brand-600);
+}
+
+.btn-danger {
+  background: var(--danger);
+  border-color: transparent;
+}
+.btn-ghost {
+  background: transparent;
+}
+
+.table-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+}
+.table th,
+.table td {
+  padding: 12px 10px;
+  border-top: var(--border);
+}
+.table thead th {
+  color: var(--muted);
+  font-weight: 600;
+  border-top: none;
+}
+.table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.badge {
+  display: inline-block;
+  background: #1b1f2a;
+  border: var(--border);
+  border-radius: 999px;
+  padding: 4px 10px;
+}
+
+.chip {
+  display: inline-block;
+  padding: 4px 8px;
+  background: #182032;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.muted {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.empty {
+  opacity: 0.8;
+  padding: 24px 12px;
+}
+
+/* Buttons */
+button.btn,
+.btn {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #0e1015;
+  color: var(--text);
+  border: var(--border);
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.06s ease, background 0.2s;
+}
+button.btn:hover,
+.btn:hover {
+  transform: translateY(-1px);
+}
+button.btn:active,
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn-ghost {
+  background: transparent;
+  border: var(--border);
+}
+.btn-ghost:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* Make toolbar look like a header row with actions on the right */
+.table-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+/* Button system */
+button.btn,
+.btn {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #0e1015;
+  color: var(--text);
+  border: var(--border);
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.06s ease, background 0.2s, border-color 0.2s,
+    color 0.2s;
+}
+button.btn:hover,
+.btn:hover {
+  transform: translateY(-1px);
+}
+button.btn:active,
+.btn:active {
+  transform: translateY(0);
+}
+.btn[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Variants */
+.btn-primary {
+  background: var(--brand);
+  border-color: transparent;
+}
+.btn-primary:hover {
+  background: var(--brand-600);
+}
+
+.btn-ghost {
+  background: transparent;
+}
+
+.btn-danger {
+  background: var(--danger);
+  border-color: transparent;
+}
+
+/* New: outline-y danger (nice for toolbar) */
+.btn-danger-outline {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid rgba(255, 91, 110, 0.45);
+}
+.btn-danger-outline:hover {
+  background: rgba(255, 91, 110, 0.08);
+  border-color: var(--danger);
+}
+
+.table-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+/* Filters card */
+.filters {
+  margin-bottom: 12px;
+}
+.filters .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+}
+@media (max-width: 840px) {
+  .filters .grid {
+    grid-template-columns: 1fr;
+  }
+}
+.filters-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+/* Toolbar action group */
+.toolbar-actions {
+  display: flex;
+  gap: 8px;
+}
