@@ -11,7 +11,7 @@ Each project is designed to sharpen modern React skills using functional compone
 | #   | Status | Project                                     | Focus Area                                    |
 | --- | :----: | ------------------------------------------- | --------------------------------------------- |
 | 1   |   ✅   | **[Profile Card App](./profile-card/)**     | JSX, Props, Styling, Component Basics         |
-| 2   |   🛠️   | **[Ultimate Squad App](./ultimate-squad/)** | Lists, Props, State, Forms, CRUD              |
+| 2   |   ✅   | **[Ultimate Squad App](./ultimate-squad/)** | Lists, Props, State, Forms, CRUD              |
 | 3   |   ⏳   | **Job Board App**                           | Filtering, Searching, Mapping Tags            |
 | 4   |   ⏳   | **Multi‑Step Form Wizard**                  | Forms, Progress Flow, RHF                     |
 | 5   |   ⏳   | **Todo List w/ Context**                    | React Context, Derived State                  |
