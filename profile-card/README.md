@@ -23,6 +23,12 @@ The app is bootstrapped with **Vite + React**, and includes modern tooling like 
 
 ---
 
+## 📷 Screenshots
+
+![Profile Card](docs/profile-card.png)
+
+---
+
 ## 🧪 Dev Setup
 
 ```bash

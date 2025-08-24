@@ -193,9 +193,9 @@ npm run format
 
 ---
 
-## 📷 Screenshots (optional)
+## 📷 Screenshots
 
-![Roster app – dark UI](docs/ultimate-squad-ui.png)
+![Ultimate Squad (Roster app – dark UI)](docs/ultimate-squad-ui.png)
 
 ---
 
